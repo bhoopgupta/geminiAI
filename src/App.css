@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+.text-gradient {
+  background: linear-gradient(to right, #be185d, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
